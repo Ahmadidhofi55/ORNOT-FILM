@@ -40,7 +40,7 @@ const [popularMovies, setPopularMovies] = useState([])
          <h1>ORNOT-FILM</h1>
          <div className="MOVIE">
             <input 
-            placeholder="Cari Film Kamu" 
+            placeholder="Find Your Movie" 
             className="movie-search"
             onChange={({target}) => search(target.value)}
              />
